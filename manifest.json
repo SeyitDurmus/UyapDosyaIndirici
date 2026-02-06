@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "UyapDosyaIndirici",
+  "version": "1.0.0",
+  "description": "A Firefox WebExtension for UYAP document management",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "UyapDosyaIndirici"
+  },
+  "permissions": [
+    "downloads"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "uyapdosyaindirici@extension.local",
+      "strict_min_version": "109.0"
+    }
+  }
+}
